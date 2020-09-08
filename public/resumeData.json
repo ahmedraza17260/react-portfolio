@@ -1,10 +1,10 @@
 {
   "main": {
-    "name": "Ahmed Raza",
+    "name": "AHMED RAZA",
     "occupation": "ReactJS Developer ",
     "description": "Full Stack React Developer by Day, Freelancer by Day & Night.",
-    "image": "IG_Sonny.jpeg",
-    "bio": "My name is Ahmed Raza, I'm a Full Stack ReactJS Developer. ",
+    "image": "Ahmed_Raza.jpg",
+    "bio": "My Name is AHMED RAZA I'm a ReactJS Developer. ",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "ahmedraza17260@gmail.com",
     "phone": "+92 3232190116",
@@ -40,36 +40,37 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Here are my Skills",
     "education": [
       {
         "school": "Academy of Islamic and Modern Studies",
         "college": "Sir Adamjee Institute",
+        "university": "Karachi University",
         "degree": "Intermediate",
         "graduated": "June 2017",
-        "description": "Graduated with Distinction"
+        "description": "Still Studying"
       }
     ],
     "work": [
       {
-        "company": "Home",
-        "title": "React Specialist",
-        "years": "April 2019 - Present",
+        "company": "Work From Home",
+        "title": "React Developer",
+        "years": "April 2020 - Present",
         "description": "Learning ReactJS ."
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "70%"
+        "level": "63%"
       },
       {
         "name": "CSS",
-        "level": "95%"
+        "level": "90%"
       },
       {
         "name": "Git",
-        "level": "60%"
+        "level": "63%"
       },
       {
         "name": "Javascript",
@@ -77,45 +78,53 @@
       },
       {
         "name": "HTML5",
-        "level": "90%"
+        "level": "95%"
       },
       {
         "name": "C#",
-        "level": "60%"
+        "level": "63%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "72%"
+      },
+      {
+        "name": "C",
+        "level": "85%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "title": "Ecommerce Shopping Basket",
+        "category": "Ecommerce Shopping Basket using React and Redux Toolkit with TypeScript ",
+        "image": "shopping-basket.jpg",
+        "url": "https://shopping-basket-raza-app.netlify.app/"
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "title": "Space X React App",
+        "category": "Space X Client Application with React, TypeScript, Apollo Client 3, and SpaceX API using Test-Driven Development (TDD) and deployed as a PWA",
+        "image": "spacex.jpg",
+        "url": "https://spaces-x-react-app.netlify.app/"
       },
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+        "title": "Quiz App",
+        "category": "Quiz App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications",
+        "image": "quiz.jpg",
+        "url": "https://react-quiz-pwa.web.app/"
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+        "title": "Diaries App",
+        "category": "Diaries App using React and Redux Toolkit with TypeScript ",
+        "image": "login.jpg",
+        "url": "https://raza-diaries-app.netlify.app/"
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "Expense Tracker",
+        "category": "Expense Tracker App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications",
+        "image": "expense.jpg",
+        "url": "https://expense-tracker-pwa-2fee8.web.app/"
       }
     ]
   },

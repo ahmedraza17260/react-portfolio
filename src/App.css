@@ -1,0 +1,26 @@
+.copyRight {
+  text-align: center;
+  /* padding-bottom: 6px !important; */
+  color: black !important;
+  /* opacity: ; */
+  font-weight: bolder;
+  font-family: "BioRhyme", cursive, serif !important;
+  /* font-family: 'Mali', cursive !important; */
+  /* font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; */
+  padding: 16px !important;
+  font-size: x-large !important;
+  box-shadow: black 5px 5px 5px 5px !important;
+  /* background: radial-gradient(circle,
+        rgba(238, 174, 202, 1) 17%,
+        rgba(148, 187, 233, 1) 100%); */
+  /* background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important; */
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}

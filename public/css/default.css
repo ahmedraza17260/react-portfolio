@@ -230,7 +230,8 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
-  color: #838c95;
+  color: #000000;
+  /* color: #838c95; */
 
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
@@ -246,7 +247,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #313131;
+  color: #000000;
+  /* color: #313131; */
   font-family: "opensans-bold", sans-serif;
   font-weight: normal;
 }
@@ -432,7 +434,8 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #11abb0;
+  /* color: #11abb0; */
+  color: #74ebd5;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -754,6 +757,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   color: #b3b7bc;
+  /* background-color: #fff; */
   background-color: #3d4145;
 }
 
