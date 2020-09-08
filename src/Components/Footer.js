@@ -33,7 +33,7 @@ class Footer extends Component {
         <div className="copyRight">
           <h4> Powered by Ahmed Raza </h4>
           <a href="https://github.com/ahmedraza17260" rel="noopener noreferrer" target="_blank" >
-            <h3 > Copyright © 2020 Ahmed Raza </h3>
+            <h3 > Copyright &copy; 2020 Ahmed Raza </h3>
           </a>
           <h3 > All Right Reserved </h3></div>
       </footer>
