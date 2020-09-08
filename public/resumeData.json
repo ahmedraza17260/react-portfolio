@@ -33,6 +33,11 @@
         "className": "fa fa-instagram"
       },
       {
+        "name": "twitter",
+        "url": "https://twitter.com/AhmedRaza17260",
+        "className": "fa fa-twitter"
+      },
+      {
         "name": "github",
         "url": "http://github.com/ahmedraza17260",
         "className": "fa fa-github"
