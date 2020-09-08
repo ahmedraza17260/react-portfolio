@@ -1,6 +1,6 @@
 # ReactJS Portfolio Template
 
-![ReactJS Resume Website Template](resume-screenshot1.png?raw=true "ReactJS Resume Website Template")
+![ReactJS Resume Website Template](resume-screenshot6.png?raw=true "ReactJS Resume Website Template")
 
 <a href="https://ahmedraza-portfolio.netlify.app/">LIVE DEMO</a>
 
