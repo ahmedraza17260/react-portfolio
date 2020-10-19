@@ -1,18 +1,19 @@
 {
   "main": {
     "name": "AHMED RAZA",
-    "occupation": "ReactJS Developer ",
-    "description": "Full Stack React Developer by Day, Freelancer by Day & Night.",
+    "occupation": "ReactJS & ASP.NET Developer ",
+    "description": "React & ASP.NET Developer by Day.",
     "image": "Ahmed_Raza.jpg",
-    "bio": "My Name is AHMED RAZA I'm a ReactJS Developer. ",
+    "bio": "My Name is AHMED RAZA I'm a ReactJS & ASP.NET Developer. ",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "ahmedraza17260@gmail.com",
     "phone": "+92 3232190116",
+    "phone1": "+92 3178917263",
     "address": {
-      "street": "Fake Street",
+      "street": "Naseerabad FB Area",
       "city": "Karachi",
       "state": "Pakistan",
-      "zip": "ABC 123"
+      "zip": "75950"
     },
     "website": "https://ahmedrazaelectronic.web.app/",
     "resumedownload": "https://ahmedrazaelectronic.web.app/",
@@ -59,9 +60,9 @@
     "work": [
       {
         "company": "Work From Home",
-        "title": "React Developer",
+        "title": "React & ASP.NET Developer",
         "years": "April 2020 - Present",
-        "description": "Learning ReactJS ."
+        "description": "Learning ReactJS & ASP.NET ."
       }
     ],
     "skills": [
@@ -74,8 +75,12 @@
         "level": "90%"
       },
       {
-        "name": "Git",
+        "name": "ASP.NET",
         "level": "63%"
+      },
+      {
+        "name": "Git",
+        "level": "72%"
       },
       {
         "name": "Javascript",
@@ -87,11 +92,11 @@
       },
       {
         "name": "C#",
-        "level": "63%"
+        "level": "72%"
       },
       {
         "name": "Bootstrap",
-        "level": "72%"
+        "level": "92%"
       },
       {
         "name": "C",
@@ -101,6 +106,18 @@
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Amazon Clone",
+        "category": "Amazon Clone with Javascript ",
+        "image": "amazon-clone.jpg",
+        "url": "https://amazon-clone-raza-app.netlify.app/"
+      },
+      {
+        "title": "Whatsapp Clone",
+        "category": "Whatsapp Clone with Javascript ",
+        "image": "whatsapp-clone.jpg",
+        "url": "https://whatsapp-clone-react-app.web.app/"
+      },
       {
         "title": "Ecommerce Shopping Basket",
         "category": "Ecommerce Shopping Basket using React and Redux Toolkit with TypeScript ",
