@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = ({ data }) => {
   // const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
@@ -7,12 +8,32 @@ const Contact = ({ data }) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  console.log(data);
+  // console.log(data);
 
-  const handleClick = (e) => {
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+  // };
+
+  function sendEmail(e) {
     e.preventDefault();
-    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
-  };
+    emailjs
+      .sendForm(
+        "gmail",
+        "PortfolioTemplate",
+        e.target,
+        "user_LTfJaD1P0OGKt61H6CoDR"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
 
   return (
     <section id="contact">
@@ -30,66 +51,88 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form id="contactForm" name="contactForm">
+          <form className="contact-form" onSubmit={sendEmail}>
+            <input type="hidden" name="contact_number" />
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Subject</label>
+            <input type="text" name="user_subject" />
+            <label>Message</label>
+            <textarea name="user_message" />
+            <input type="submit" value="Send" />
+          </form>
+
+          {/* <form id="contactForm" name="contactForm" onSubmit={sendEmail}>
             <fieldset>
-              <div>
-                <label htmlFor="contactName">
-                  Name <span className="required">*</span>
-                </label>
-                <input
-                  value={name}
-                  type="text"
-                  defaultValue=""
-                  size="35"
-                  id="contactName"
-                  name="contactName"
-                  onChange={(e) => setName(e.target.value)}
-                />
-              </div>
+            <div>
+              <label htmlFor="contactName">
+                Name <span className="required">*</span>
+              </label>
+              <input
+                required
+                value={name}
+                type="text"
+                size="35"
+                id="contactName"
+                name="name"
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
 
-              <div>
-                <label htmlFor="contactEmail">
-                  Email <span className="required">*</span>
-                </label>
-                <input
-                  value={email}
-                  type="text"
-                  defaultValue=""
-                  size="35"
-                  id="contactEmail"
-                  name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
+            <div>
+              <label htmlFor="contactEmail">
+                Email <span className="required">*</span>
+              </label>
+              <input
+                required
+                value={email}
+                type="text"
+                size="35"
+                id="contactEmail"
+                name="email"
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
 
-              <div>
-                <label htmlFor="contactSubject">Subject</label>
-                <input
-                  value={subject}
-                  type="text"
-                  defaultValue=""
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
-                />
-              </div>
+            <div>
+              <label htmlFor="contactSubject">
+                Subject<span className="required">*</span>
+              </label>
+              <input
+                required
+                value={subject}
+                type="text"
+                size="35"
+                id="contactSubject"
+                name="subject"
+                onChange={(e) => setSubject(e.target.value)}
+              />
+            </div>
 
-              <div>
-                <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
-                </label>
-                <textarea
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  cols="50"
-                  rows="15"
-                  id="contactMessage"
-                  name="contactMessage"
-                ></textarea>
-              </div>
+            <div>
+              <label htmlFor="contactMessage">
+                Message <span className="required">*</span>
+              </label>
+              <textarea
+                required
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                cols="50"
+                rows="15"
+                id="contactMessage"
+                name="message"
+              ></textarea>
+            </div>
+            <div>
+              <button className="submit" type="submit">
+                Submit
+              </button>
+            </div>
 
-              <div>
+            <div>
+                onClick={sendEmail}
                 <button type="submit" onClick={handleClick} className="submit">
                   Submit
                 </button>
@@ -98,13 +141,13 @@ const Contact = ({ data }) => {
                 </span>
               </div>
             </fieldset>
-          </form>
+          </form> */}
 
-          <div id="message-warning"> Error boy</div>
+          {/* <div id="message-warning"> Error boy</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
-          </div>
+          </div> */}
         </div>
 
         <aside className="four columns footer-widgets">
