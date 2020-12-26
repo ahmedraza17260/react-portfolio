@@ -51,7 +51,7 @@
       {
         "school": "Academy of Islamic and Modern Studies",
         "college": "Sir Adamjee Institute",
-        "university": "Karachi University",
+        "university": "Karachi University (Continue)",
         "degree": "Intermediate",
         "graduated": "June 2017",
         "description": "Still Studying"
@@ -87,6 +87,10 @@
         "level": "80%"
       },
       {
+        "name": "Typescript",
+        "level": "60%"
+      },
+      {
         "name": "HTML5",
         "level": "95%"
       },
@@ -111,6 +115,12 @@
         "category": "Amazon Clone with React Javascript ",
         "image": "amazon-clone.jpg",
         "url": "https://amazon-clone-raza-app.netlify.app/"
+      },
+      {
+        "title": "Ahmed Raza Electronics",
+        "category": "Ahmed Raza Electronics with React Javascript ",
+        "image": "ahmed-raza-electronics.jpg",
+        "url": "https://ahmedrazaelectronics-17.web.app/"
       },
       {
         "title": "Whatsapp Clone",

@@ -54,14 +54,14 @@ const Contact = ({ data }) => {
           <form className="contact-form" onSubmit={sendEmail}>
             <input type="hidden" name="contact_number" />
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input required type="text" name="user_name" />
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input required type="email" name="user_email" />
             <label>Subject</label>
-            <input type="text" name="user_subject" />
+            <input required type="text" name="user_subject" />
             <label>Message</label>
-            <textarea name="user_message" />
-            <input type="submit" value="Send" />
+            <textarea required name="user_message" /> <br />
+            <input className="submit" type="submit" value="Send" />
           </form>
 
           {/* <form id="contactForm" name="contactForm" onSubmit={sendEmail}>
