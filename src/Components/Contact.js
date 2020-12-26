@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import emailjs from "emailjs-com";
+
+// import React, { useState } from "react";
 
 const Contact = ({ data }) => {
   // const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
