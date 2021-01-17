@@ -20,23 +20,33 @@ class Footer extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">{networks}</ul>
-
             <ul>
-              <li>Modified with love by the Clever Programmer Team </li>
-            </ul>
-
-            <ul className="copyright">
-              <li>All credit goes to Tim Baker</li> <br />
+              {/* <li>Modified with love by the Clever Programmer Team </li> */}
               <li>
-                Design by{" "}
+                Design by
                 <a
                   title="Styleshout"
                   href="https://ahmedraza-portfolio.netlify.app/"
                 >
+                  {" "}
                   Ahmed Raza
                 </a>
               </li>
+              <li>All credit goes to Tim Baker</li>
             </ul>
+            {/* <ul className="copyright">
+              <li>All credit goes to Tim Baker</li> <br />
+              <li>
+                Design by
+                <a
+                  title="Styleshout"
+                  href="https://ahmedraza-portfolio.netlify.app/"
+                >
+                  {" "}
+                  Ahmed Raza
+                </a>
+              </li>
+            </ul> */}
           </div>
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">

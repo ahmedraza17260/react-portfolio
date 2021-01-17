@@ -105,6 +105,10 @@
       {
         "name": "C",
         "level": "85%"
+      },
+      {
+        "name": "React Native",
+        "level": "65%"
       }
     ]
   },
@@ -115,6 +119,12 @@
         "category": "Amazon Clone with React Javascript ",
         "image": "amazon-clone.jpg",
         "url": "https://amazon-clone-raza-app.netlify.app/"
+      },
+      {
+        "title": "Linkedin Clone",
+        "category": "Linkedin Clone with React Javascript & Redux ",
+        "image": "linkedin-clone.jpg",
+        "url": "https://linkedin-clone-874a2.web.app/"
       },
       {
         "title": "Ahmed Raza Electronics",
