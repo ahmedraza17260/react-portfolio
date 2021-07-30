@@ -62,7 +62,7 @@ class Footer extends Component {
             target="_blank"
           >
             {" "}
-            <h3> Copyright &copy; 2020 Ahmed Raza </h3>{" "}
+            <h3> Copyright &copy; {new Date().getFullYear()}</h3>{" "}
           </a>
           <h3> All Right Reserved </h3>
         </div>
