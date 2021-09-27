@@ -54,3 +54,14 @@ class App extends Component {
 }
 
 export default App;
+
+// "https://olx-clone-raza-app.netlify.app/"
+// "https://amazon-clone-raza-app.netlify.app/"
+// "https://olx-clone-d2422.firebaseapp.com/"
+
+// {
+//         "title": "Whatsapp Clone",
+//         "category": "Whatsapp Clone with React Javascript ",
+//         "image": "whatsapp-clone.jpg",
+//         "url": "https://whatsapp-clone-react-app.web.app/"
+//       },
