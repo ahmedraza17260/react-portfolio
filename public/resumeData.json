@@ -115,6 +115,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Second Portfolio",
+        "category": "Portfolio with React Javascript ",
+        "image": "portfolio.jpg",
+        "url": "https://ahmedrazaportfolio.netlify.app/"
+      },
+      {
         "title": "Amazon Clone",
         "category": "Amazon Clone with React Javascript ",
         "image": "amazon-clone.jpg",
