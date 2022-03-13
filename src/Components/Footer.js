@@ -7,7 +7,7 @@ class Footer extends Component {
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
-            <a href={network.url}>
+            <a rel="noopener noreferrer" target="_blank" href={network.url}>
               <i className={network.className}></i>
             </a>
           </li>
@@ -23,16 +23,15 @@ class Footer extends Component {
             <ul>
               {/* <li>Modified with love by the Clever Programmer Team </li> */}
               <li>
-                Design by
+                Design by{" "}
                 <a
                   title="Styleshout"
                   href="https://ahmedraza-portfolio.netlify.app/"
                 >
-                  {" "}
                   Ahmed Raza
                 </a>
               </li>
-              <li>All credit goes to Tim Baker</li>
+              {/* <li>All credit goes to Tim Baker</li> */}
             </ul>
             {/* <ul className="copyright">
               <li>All credit goes to Tim Baker</li> <br />
@@ -54,17 +53,24 @@ class Footer extends Component {
             </a>
           </div>
         </div>
-        <div className="copyRight">
-          <h4> Powered by Ahmed Raza </h4>
-          <a
+        <div className="">
+          {/* <h4> Powered by Ahmed Raza </h4> */}
+          {/* <a
             href="https://github.com/ahmedraza17260"
             rel="noopener noreferrer"
             target="_blank"
-          >
-            {" "}
-            <h3> Copyright &copy; {new Date().getFullYear()}</h3>{" "}
-          </a>
-          <h3> All Right Reserved </h3>
+          > */}
+
+          <h3>
+            <a
+              href="https://github.com/ahmedraza17260"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Copyright &copy; {new Date().getFullYear()}{" "}
+            </a>
+          </h3>
+          {/* <h3> All Right Reserved </h3> */}
         </div>
       </footer>
     );

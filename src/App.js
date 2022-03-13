@@ -41,12 +41,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        <Header data={this.state.resumeData.main} /> <hr />
+        <About data={this.state.resumeData.main} /> <hr />
+        <Resume data={this.state.resumeData.resume} /> <hr />
+        <Portfolio data={this.state.resumeData.portfolio} /> <hr />
         {/* <Testimonials data={this.state.resumeData.testimonials} /> */}
-        <Contact data={this.state.resumeData.main} />
+        <Contact data={this.state.resumeData.main} /> <hr />
         <Footer data={this.state.resumeData.main} />
       </div>
     );
@@ -65,3 +65,17 @@ export default App;
 //         "image": "whatsapp-clone.jpg",
 //         "url": "https://whatsapp-clone-react-app.web.app/"
 //       },
+
+// {
+//   "title": "OLX Clone",
+//   "category": "OLX Clone with React Javascript ",
+//   "image": "olx-clone.jpg",
+//   "url": "https://olx-clone-raza-app.netlify.app/"
+// },
+
+// {
+//   "title": "Diaries App",
+//   "category": "Diaries App using React and Redux Toolkit with TypeScript ",
+//   "image": "login.jpg",
+//   "url": "https://raza-diaries-app.netlify.app/"
+// },

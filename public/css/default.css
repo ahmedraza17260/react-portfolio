@@ -221,16 +221,16 @@ html {
 
 body {
   /* background: #fff; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
-  );
+  ); */
   font-family: "opensans-regular", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
-  color: #000000;
+  /* color: #000000; */
   /* color: #838c95; */
 
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -247,10 +247,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000000;
+  /* color: #000000; */
   /* color: #313131; */
   font-family: "opensans-bold", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 h1 a,
 h2 a,
@@ -352,7 +352,7 @@ blockquote cite:before {
 }
 blockquote cite a,
 blockquote cite a:visited {
-  color: #8b9798;
+  /* color: #8b9798; */
   border: none;
 }
 
@@ -421,7 +421,9 @@ abbr:hover {
 }
 
 hr {
-  border: solid #e3e3e3;
+  border: solid gray;
+  /* border: solid #243447; */
+  /* border: solid #e3e3e3; */
   border-width: 1px 0 0;
   clear: both;
   margin: 11px 0 30px;
@@ -435,7 +437,8 @@ a:visited {
   text-decoration: none;
   outline: 0;
   /* color: #11abb0; */
-  color: #74ebd5;
+  /* color: #74ebd5; */
+  /* color: white; */
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -444,11 +447,11 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #313131;
+  /* color: #313131; */
 }
 p a,
 p a:visited {
-  line-height: inherit;
+  /* line-height: inherit; */
 }
 
 /*  4. List  --------------------------------------------------------- */
@@ -661,11 +664,11 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   font: 16px/30px "opensans-bold", sans-serif;
-  background: #11abb0;
+  /* background: #11abb0; */
   display: inline-block;
   text-decoration: none;
   letter-spacing: 0;
-  color: #fff;
+  /* color: #fff; */
   padding: 12px 20px;
   margin-bottom: 18px;
   border: none;
@@ -689,8 +692,8 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  background: #3d4145;
-  color: #fff;
+  /* background: #3d4145; */
+  /* color: #fff; */
 }
 
 .button:active,
@@ -698,8 +701,8 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  background: #3d4145;
-  color: #fff;
+  /* background: #3d4145; */
+  /* color: #fff; */
 }
 
 .button.full-width,
@@ -744,7 +747,7 @@ select {
   max-width: 100%;
   font-size: 15px;
   line-height: 24px;
-  color: #647373;
+  /* color: #647373; */
   background: #d3d9d9;
 }
 
@@ -769,19 +772,19 @@ label,
 legend {
   font: 16px/24px "opensans-bold", sans-serif;
   margin: 12px 0;
-  color: #3d4145;
+  /* color: #3d4145; */
   display: block;
 }
 label span,
 legend span {
-  color: #8b9798;
+  /* color: #8b9798; */
   font: 14px/24px "opensans-regular", sans-serif;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
   font-size: 15px;
-  color: #737373;
+  /* color: #737373; */
 }
 
 input[type="checkbox"] {
