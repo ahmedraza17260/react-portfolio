@@ -24,3 +24,36 @@
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
+
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 3px #999; */
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 10px;
+}
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 7px;
+  }
+  .whatsapp_float {
+    width: 35px;
+    height: 35px;
+    bottom: 17px;
+    right: 17px;
+    font-size: 21px;
+  }
+}

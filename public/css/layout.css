@@ -462,7 +462,7 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 20px/30px "opensans-bold", sans-serif;
 }
 
 #resume .header-col {
@@ -492,7 +492,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
+  font: 14px/24px "Lato", "opensans-regular", sans-serif;
   margin-top: 6px;
 }
 
@@ -644,7 +644,7 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 16px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -1124,7 +1124,8 @@ call-to-action .button {
 }
 
 #contact h4 {
-  font: 16px/24px "opensans-bold", sans-serif;
+  font: 20px/24px "opensans-bold", sans-serif;
+  padding-bottom: 8px;
   /* color: #000000; */
   /* color: #ebeeee; */
   margin-bottom: 6px;

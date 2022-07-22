@@ -1,5 +1,6 @@
 import React from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
+// import emailjs from "emailjs-com";
 
 // import React, { useState } from "react";
 
@@ -37,6 +38,30 @@ const Contact = ({ data }) => {
     e.target.reset();
   }
 
+  // function getOnWhatsapp() {
+  //   var name = document.getElementById("name").value;
+  //   var email = document.getElementById("email").value;
+  //   var subject = document.getElementById("subject").value;
+  //   var message = document.getElementById("message").value;
+  //   // var phone = document.getElementById("phone").value;
+
+  //   var url =
+  //     "https://wa.me/923232190116?text=" +
+  //     "Name: " +
+  //     name +
+  //     "%0a" +
+  //     "Email: " +
+  //     email +
+  //     "%0a" +
+  //     "Subject: " +
+  //     subject +
+  //     "%0a" +
+  //     "Message: " +
+  //     message;
+
+  //   window.open(url, "_blank").focus();
+  // }
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -56,14 +81,22 @@ const Contact = ({ data }) => {
           <form className="contact-form" onSubmit={sendEmail}>
             <input type="hidden" name="contact_number" />
             <label>Name</label>
-            <input required type="text" name="user_name" />
+            <input id="name" required type="text" name="user_name" />
             <label>Email</label>
-            <input required type="email" name="user_email" />
+            <input id="email" required type="email" name="user_email" />
             <label>Subject</label>
-            <input required type="text" name="user_subject" />
+            <input id="subject" required type="text" name="user_subject" />
             <label>Message</label>
-            <textarea required name="user_message" /> <br />
-            <input className="submit" type="submit" value="Send" />
+            <textarea id="message" required name="user_message" /> <br />
+            <input className="submit" type="submit" value="Email" />
+            {/* <input
+              onClick={() => {
+                getOnWhatsapp();
+              }}
+              className="submit"
+              type="submit"
+              value="Whatsapp"
+            /> */}
           </form>
 
           {/* <form id="contactForm" name="contactForm" onSubmit={sendEmail}>

@@ -47,6 +47,16 @@ class Footer extends Component {
               </li>
             </ul> */}
           </div>
+          <a
+            href="https://wa.me/+923232190116?text=Hi%20There!"
+            className="whatsapp_float"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <i className="fa fa-whatsapp whatsapp-icon"></i>
+          </a>
+
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
               <i className="icon-up-open"></i>

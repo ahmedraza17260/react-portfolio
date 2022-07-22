@@ -49,10 +49,15 @@
   #about .profile-pic {
     width: 114px;
     height: 114px;
-    margin-left: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   #about .contact-details {
     width: 50%;
+  }
+  #about .contact-details h2 {
+    text-align: center;
   }
   #about .download {
     width: 50%;
@@ -228,7 +233,9 @@
   /* About Section
    -------------------------------------------------------------------- */
   #about .profile-pic {
-    display: none;
+    /* display: none; */
+    position: relative;
+    margin-bottom: 20px !important;
   }
   #about .download .button {
     width: 100%;
@@ -239,10 +246,18 @@
     padding-right: 30px;
   }
 
+  #about .main-col h2 {
+    text-align: center;
+  }
+  #about .main-col p {
+    text-align: justify;
+    /* margin-top: 10px; */
+  }
+
   /* Resume Section
    --------------------------------------------------------------------- */
   #resume .header-col {
-    padding-top: 0;
+    padding-top: 0px;
     margin-bottom: 48px;
     text-align: center;
   }
@@ -254,7 +269,7 @@
   }
   #resume h3,
   #resume .info {
-    text-align: center;
+    text-align: justify-low;
   }
 
   .bars {
@@ -338,6 +353,7 @@
   }
   #contact h1 span {
     display: block;
+    font-size: 26px;
   }
   #contact .header-col {
     padding-top: 0;
