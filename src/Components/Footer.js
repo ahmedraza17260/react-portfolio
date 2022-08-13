@@ -85,6 +85,7 @@ class Footer extends Component {
         <a
           href="https://www.revenuehits.com/lps/pubref/?ref=@RH@o8AkQ1f6g4piyzjlP_Hmoemci3uhSfe8ZZJCxAdeOqU"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src="https://revenuehits.com/publishers/media/img/v4/728x90_v4.gif"
