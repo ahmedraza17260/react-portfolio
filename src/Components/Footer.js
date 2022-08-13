@@ -82,6 +82,16 @@ class Footer extends Component {
           </h3>
           {/* <h3> All Right Reserved </h3> */}
         </div>
+        <a
+          href="https://www.revenuehits.com/lps/pubref/?ref=@RH@o8AkQ1f6g4piyzjlP_Hmoemci3uhSfe8ZZJCxAdeOqU"
+          target="_blank"
+        >
+          <img
+            src="https://revenuehits.com/publishers/media/img/v4/728x90_v4.gif"
+            alt="Ads"
+            border="0"
+          />
+        </a>
       </footer>
     );
   }
