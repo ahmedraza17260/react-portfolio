@@ -197,7 +197,7 @@ body {
   /* --clr: #222327; */
 }
 body {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -206,13 +206,13 @@ body {
 }
 .navigation {
   position: relative;
-  width: 500px;
-  padding-top: 15px;
+  width: 350px;
+  /* padding-top: 15px; */
   height: 70px;
   background: black;
   /* background: var(--clr); */
+  /* display: flex; */
   color: #fff;
-  display: flex;
   justify-content: center;
   align-items: center;
   top: 30px;
@@ -221,7 +221,7 @@ body {
 }
 .navigation ul {
   display: flex;
-  /* width: 350px; */
+  width: 350px;
 }
 .navigation ul li {
   position: relative;
