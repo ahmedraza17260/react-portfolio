@@ -82,7 +82,7 @@ class Footer extends Component {
           </h3>
           {/* <h3> All Right Reserved </h3> */}
         </div>
-        <a
+        {/* <a
           href="https://www.revenuehits.com/lps/pubref/?ref=@RH@o8AkQ1f6g4piyzjlP_Hmoemci3uhSfe8ZZJCxAdeOqU"
           target="_blank"
           rel="noopener noreferrer"
@@ -92,7 +92,7 @@ class Footer extends Component {
             alt="Ads"
             border="0"
           />
-        </a>
+        </a> */}
       </footer>
     );
   }

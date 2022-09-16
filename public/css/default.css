@@ -229,7 +229,8 @@ body {
   font-family: "opensans-regular", sans-serif;
   font-weight: normal;
   font-size: 15px;
-  line-height: 30px;
+  /* line-height: 30px; */
+  /* color: #000 !important; */
   /* color: #000000; */
   /* color: #838c95; */
 
@@ -438,7 +439,7 @@ a:visited {
   outline: 0;
   /* color: #11abb0; */
   /* color: #74ebd5; */
-  /* color: white; */
+  color: white;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -447,11 +448,19 @@ a:visited {
 }
 a:hover,
 a:focus {
+  /* color: #11abb0; */
+  /* background: #000; */
+  /* padding: 2px; */
+  /* color: #000080; */
+  color: #c0c0c0;
+
+  /* color: #29fd53; */
   /* color: #313131; */
 }
 p a,
 p a:visited {
   /* line-height: inherit; */
+  color: white;
 }
 
 /*  4. List  --------------------------------------------------------- */

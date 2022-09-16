@@ -1,23 +1,7 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
-// import emailjs from "emailjs-com";
-
-// import React, { useState } from "react";
 
 const Contact = ({ data }) => {
-  // const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
-  // const [name, setName] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
-
-  // console.log(data);
-
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
-  // };
-
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -37,30 +21,6 @@ const Contact = ({ data }) => {
       );
     e.target.reset();
   }
-
-  // function getOnWhatsapp() {
-  //   var name = document.getElementById("name").value;
-  //   var email = document.getElementById("email").value;
-  //   var subject = document.getElementById("subject").value;
-  //   var message = document.getElementById("message").value;
-  //   // var phone = document.getElementById("phone").value;
-
-  //   var url =
-  //     "https://wa.me/923232190116?text=" +
-  //     "Name: " +
-  //     name +
-  //     "%0a" +
-  //     "Email: " +
-  //     email +
-  //     "%0a" +
-  //     "Subject: " +
-  //     subject +
-  //     "%0a" +
-  //     "Message: " +
-  //     message;
-
-  //   window.open(url, "_blank").focus();
-  // }
 
   return (
     <section id="contact">
@@ -89,17 +49,78 @@ const Contact = ({ data }) => {
             <label>Message</label>
             <textarea id="message" required name="user_message" /> <br />
             <input className="submit" type="submit" value="Email" />
-            {/* <input
-              onClick={() => {
-                getOnWhatsapp();
-              }}
-              className="submit"
-              type="submit"
-              value="Whatsapp"
-            /> */}
           </form>
+        </div>
 
-          {/* <form id="contactForm" name="contactForm" onSubmit={sendEmail}>
+        <aside className="four columns footer-widgets">
+          <div className="widget widget_contact">
+            <h4>Address and Phone</h4>
+            <p className="address">
+              {data?.name}
+              <br />
+              {data?.address.street} <br />
+              {data?.address.city}, {data?.address.state} {data?.address.zip}
+              <br />
+              <span>{data?.phone}</span>
+              <br />
+              <span>{data?.phone1}</span>
+              <br />
+              <span>{data?.email}</span>
+            </p>
+          </div>
+
+          <div className="widget widget_tweets"></div>
+        </aside>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
+
+// import emailjs from "emailjs-com";
+
+// import React, { useState } from "react";
+
+// const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
+// const [name, setName] = useState("");
+// const [subject, setSubject] = useState("");
+// const [email, setEmail] = useState("");
+// const [message, setMessage] = useState("");
+
+// console.log(data);
+
+// const handleClick = (e) => {
+//   e.preventDefault();
+//   window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+// };
+
+// function getOnWhatsapp() {
+//   var name = document.getElementById("name").value;
+//   var email = document.getElementById("email").value;
+//   var subject = document.getElementById("subject").value;
+//   var message = document.getElementById("message").value;
+//   // var phone = document.getElementById("phone").value;
+
+//   var url =
+//     "https://wa.me/923232190116?text=" +
+//     "Name: " +
+//     name +
+//     "%0a" +
+//     "Email: " +
+//     email +
+//     "%0a" +
+//     "Subject: " +
+//     subject +
+//     "%0a" +
+//     "Message: " +
+//     message;
+
+//   window.open(url, "_blank").focus();
+// }
+
+// {
+/* <form id="contactForm" name="contactForm" onSubmit={sendEmail}>
             <fieldset>
             <div>
               <label htmlFor="contactName">
@@ -176,37 +197,42 @@ const Contact = ({ data }) => {
                 </span>
               </div>
             </fieldset>
-          </form> */}
+          </form> */
+// }
 
-          {/* <div id="message-warning"> Error boy</div>
+// {
+/* <div id="message-warning"> Error boy</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
-          </div> */}
-        </div>
+          </div> */
+// }
 
-        <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
-            <p className="address">
-              {data?.name}
-              <br />
-              {data?.address.street} <br />
-              {data?.address.city}, {data?.address.state} {data?.address.zip}
-              <br />
-              <span>{data?.phone}</span>
-              <br />
-              <span>{data?.phone1}</span>
-              <br />
-              <span>{data?.email}</span>
-            </p>
-          </div>
+// {
+/* <input
+              onClick={() => {
+                getOnWhatsapp();
+              }}
+              className="submit"
+              type="submit"
+              value="Whatsapp"
+            /> */
+// }
 
-          <div className="widget widget_tweets"></div>
-        </aside>
-      </div>
-    </section>
-  );
-};
+// import ReCAPTCHA from "react-google-recaptcha";
 
-export default Contact;
+// {
+/* <ReCAPTCHA
+              sitekey={process.env.REACT_APP_SITE_KEY}
+              ref={captchaRef}
+            /> */
+// }
+
+// const captchaRef = useRef(null);
+// const token = captchaRef.current.getValue();
+
+// const handleSubmit = (e) => {
+//   e.preventDefault();
+//   const token = captchaRef.current.getValue();
+//   captchaRef.current.reset();
+// };

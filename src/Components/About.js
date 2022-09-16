@@ -28,7 +28,7 @@ class About extends Component {
             <br />
           </div>
           <div className="nine columns main-col">
-            <a
+            {/* <a
               href="https://www.revenuehits.com/lps/pubref/?ref=@RH@o8AkQ1f6g4piyzjlP_Hmoemci3uhSfe8ZZJCxAdeOqU"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,7 +38,7 @@ class About extends Component {
                 alt="Ads"
                 border="0"
               />
-            </a>
+            </a> */}
             <h2>About Me</h2>
 
             <p style={{ fontWeight: "600" }}>{bio}</p>

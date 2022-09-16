@@ -9,6 +9,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 // import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
+import Navbar from "./Components/Navbar";
 
 class App extends Component {
   constructor(props) {
@@ -41,6 +42,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         <Header data={this.state.resumeData.main} /> <hr />
         <About data={this.state.resumeData.main} /> <hr />
         <Resume data={this.state.resumeData.resume} /> <hr />
@@ -79,3 +81,9 @@ export default App;
 //   "image": "login.jpg",
 //   "url": "https://raza-diaries-app.netlify.app/"
 // },
+// {
+//         "title": "Expense Tracker",
+//         "category": "Expense Tracker App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications",
+//         "image": "expense.jpg",
+//         "url": "https://expense-tracker-pwa-2fee8.web.app/"
+// }

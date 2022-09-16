@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DarkModeToggle from "./DarkModeToggle";
+// import DarkModeToggle from "./DarkModeToggle";
 
 class Header extends Component {
   render() {
@@ -20,52 +20,7 @@ class Header extends Component {
     }
 
     return (
-      <header id="home">
-        <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#resume">
-                Education
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-            {/* <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
-            </li> */}
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
-            <li>
-              <DarkModeToggle />
-            </li>
-          </ul>
-        </nav>
-
+      <header>
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {name} .</h1>
@@ -90,3 +45,105 @@ class Header extends Component {
 }
 
 export default Header;
+
+/* <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+            Show navigation
+          </a>
+          <a className="mobile-btn" href="#home" title="Hide navigation">
+            Hide navigation
+          </a>
+
+          <ul id="nav" className="nav">
+            <li className="current list">
+              <a className="smoothscroll" href="#home">
+                <span class="icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </span>
+                <span class="text"> Home </span>
+              </a>
+            </li>
+            <li class="list">
+              <a className="smoothscroll" href="#about">
+                <span class="icon">
+                  <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <span class="text"> About </span>
+              </a>
+            </li>
+            <li class="list">
+              <a className="smoothscroll" href="#resume">
+                <span class="icon">
+                  <ion-icon name="book-outline"></ion-icon>
+                </span>
+                <span class="text"> Education </span>
+              </a>
+            </li>
+            <li class="list">
+              <a className="smoothscroll" href="#portfolio">
+                <span class="icon">
+                  <ion-icon name="code-working-outline"></ion-icon>
+                </span>
+                <span class="text"> Works </span>
+              </a>
+            </li>
+            <li class="list">
+              <a className="smoothscroll" href="#contact">
+                <span class="icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </span>
+                <span class="text"> Contact </span>
+              </a>
+            </li>
+            <div className="indicator"></div>
+
+            <li>
+              <DarkModeToggle />
+            </li>
+          </ul>
+        </nav> */
+
+// =================================================================================================
+
+// {
+/* <li className="current">
+              <a className="smoothscroll" href="#home">
+                Home
+              </a>
+            </li> */
+// }
+// {
+/* <li>
+              <a className="smoothscroll" href="#about">
+                About
+              </a>
+            </li> */
+// }
+// {
+/* <li>
+              <a className="smoothscroll" href="#resume">
+                Education
+              </a>
+            </li> */
+// }
+// {
+/* <li>
+              <a className="smoothscroll" href="#portfolio">
+                Works
+              </a>
+            </li> */
+// }
+// {
+/* <li>
+              <a className="smoothscroll" href="#testimonials">
+                Testimonials
+              </a>
+            </li> */
+// }
+// {
+/* <li>
+              <a className="smoothscroll" href="#contact">
+                Contact
+              </a>
+            </li> */
+// }

@@ -22,48 +22,48 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body {
-  /* background: #fff !important; */
-  /* color: black !important; */
-  /* background: black !important; */
-  /* color: white !important; */
-  /* background: #424141; */
-  /* color: whitesmoke !important; */
-}
-body.light-mode {
+/* body {
+  background: #fff !important;
+  color: black !important;
+  background: black !important;
+  color: white !important;
+  background: #424141;
+  color: whitesmoke !important;
+} */
+/* body.light-mode {
   background-color: #fff !important;
   color: #333 !important;
-  /* color: #243447 !important; */
-  /* transition: background-color 0.3s ease; */
-}
+  color: #243447 !important;
+  transition: background-color 0.3s ease;
+} */
 
-body.light-mode a,
+/* body.light-mode a,
 a:visited,
 #nav-wrap {
   color: #333 !important;
-}
+} */
 
-body.light-mode #nav-wrap {
+/* body.light-mode #nav-wrap {
   color: #fff !important;
   background-color: #243447 !important;
-  /* background-color: #ccc !important; */
-}
+  background-color: #ccc !important;
+} */
 
-body.light-mode #nav-wrap a {
+/* body.light-mode #nav-wrap a {
   color: #fff !important;
-}
+} */
 
-body.dark-mode {
+/* body.dark-mode {
   background-color: #243447 !important;
   color: #fff !important;
-}
+} */
 
-body.dark-mode,
+/* body.dark-mode,
 a,
 a:visited,
 #nav-wrap {
   color: #fff !important;
-}
+} */
 
 /* body.dark-mode #nav-wrap {
   color: #fff !important;
@@ -76,52 +76,52 @@ a:visited,
 
 /* ................................................................................................... */
 
-body.dark-mode .navbar {
+/* body.dark-mode .navbar {
   background-color: #1b2938;
-}
+} */
 
-body.dark-mode .dark-mode-toggle > button {
+/* body.dark-mode .dark-mode-toggle > button {
   color: #999;
-}
+} */
 
-body.dark-mode .dark-mode-toggle > button:last-child {
+/* body.dark-mode .dark-mode-toggle > button:last-child {
   color: lightblue;
-}
-body.dark-mode .content code {
+} */
+/* body.dark-mode .content code {
   background-color: #1b2938;
-}
+} */
 
-.dark-mode-toggle {
+/* .dark-mode-toggle {
   display: flex;
   margin: 0 auto;
   align-items: center !important;
-}
+} */
 
-.dark-mode-toggle > button {
+/* .dark-mode-toggle > button {
   font-size: 1.2em;
   background: none;
   border: none;
   color: #ffe600;
   cursor: pointer;
   transition: color 0.3s ease;
-}
+} */
 
-.dark-mode-toggle > button:last-child {
+/* .dark-mode-toggle > button:last-child {
   color: #666;
-}
+} */
 
-.dark-mode-toggle > button:focus {
+/* .dark-mode-toggle > button:focus {
   outline: none;
-}
+} */
 
-.toggle-control {
+/* .toggle-control {
   position: relative;
   padding: 0 4px;
   display: flex;
   margin-bottom: 12px;
   align-items: center;
   align-content: center;
-}
+} */
 
 input[type="checkbox"].dmcheck {
   width: 40px;
@@ -176,7 +176,7 @@ header {
   /* background-size: cover !important; */
   /* -webkit-background-size: cover !important; */
   text-align: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* vertically center banner section */

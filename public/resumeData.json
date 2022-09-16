@@ -153,12 +153,6 @@
         "category": "Quiz App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications",
         "image": "quiz.jpg",
         "url": "https://react-quiz-pwa.web.app/"
-      },
-      {
-        "title": "Expense Tracker",
-        "category": "Expense Tracker App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications",
-        "image": "expense.jpg",
-        "url": "https://expense-tracker-pwa-2fee8.web.app/"
       }
     ]
   },
