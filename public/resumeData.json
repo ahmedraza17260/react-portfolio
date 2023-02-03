@@ -10,13 +10,13 @@
     "phone": "+92 3232190116",
     "phone1": "+92 3178917263 (Only Whatsapp)",
     "address": {
-      "street": "FB Area Block 14",
+      "street": "Naseerabad, FB Area Block 14",
       "city": "Karachi",
       "state": "Pakistan",
       "zip": "75950"
     },
     "website": "https://ahmedrazaportfolio.netlify.app/",
-    "resumedownload": "https://drive.google.com/file/d/1QAII8gDZXuQry4s8Gic49C8CVPfKqF73/view",
+    "resumedownload": "https://drive.google.com/file/d/1an1bGso-QNqirTYNyv2RVAG3_O22fF4c/view",
     "social": [
       {
         "name": "facebook",
@@ -53,8 +53,8 @@
         "college": "Sir Adamjee Institute",
         "university": "Karachi University (Continue)",
         "degree": "MSc.(Hons)",
-        "graduated": "Continue",
-        "description": "Still Studying"
+        "graduated": "Last Semester",
+        "description": "Internship at Dalda Food"
       }
     ],
     "work": [
@@ -65,48 +65,44 @@
         "description": "Using QuickBooks Software."
       },
       {
-        "company": "Work From Home",
-        "title": "Frontend Developer",
-        "years": "April 2020 - Present",
-        "description": "Learning ReactJS."
+        "company": "Dalda Food",
+        "title": "Internship in Engineering Department",
+        "years": "January 2023 - March 2023",
+        "description": "Understand Process & QA/QC."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "Ms Office",
+        "level": "90%"
+      },
+      {
+        "name": "Laboratory",
+        "level": "72%"
+      },
+      {
+        "name": "Graphic Design",
         "level": "63%"
       },
       {
+        "name": "Front-end Development",
+        "level": "55%"
+      },
+      {
         "name": "CSS",
-        "level": "80%"
-      },
-      {
-        "name": "Git",
-        "level": "72%"
-      },
-      {
-        "name": "Javascript",
         "level": "70%"
       },
       {
-        "name": "Typescript",
-        "level": "60%"
+        "name": "Git",
+        "level": "62%"
       },
       {
         "name": "HTML5",
-        "level": "95%"
-      },
-      {
-        "name": "C#",
-        "level": "72%"
+        "level": "85%"
       },
       {
         "name": "Bootstrap",
-        "level": "92%"
-      },
-      {
-        "name": "C",
-        "level": "85%"
+        "level": "82%"
       }
     ]
   },
@@ -135,24 +131,6 @@
         "category": "Ahmed Raza Electronics with React Javascript ",
         "image": "ahmed-raza-electronics.jpg",
         "url": "https://ahmedrazaelectronics-17.web.app/"
-      },
-      {
-        "title": "Ecommerce Shopping Basket",
-        "category": "Ecommerce Shopping Basket using React and Redux Toolkit with TypeScript ",
-        "image": "shopping-basket.jpg",
-        "url": "https://shopping-basket-raza-app.netlify.app/"
-      },
-      {
-        "title": "Space X React App",
-        "category": "Space X Client Application with React, TypeScript, Apollo Client 3, and SpaceX API using Test-Driven Development (TDD) and deployed as a PWA",
-        "image": "spacex.jpg",
-        "url": "https://spaces-x-react-app.netlify.app/"
-      },
-      {
-        "title": "Quiz App",
-        "category": "Quiz App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications",
-        "image": "quiz.jpg",
-        "url": "https://react-quiz-pwa.web.app/"
       }
     ]
   },
