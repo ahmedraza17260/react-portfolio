@@ -41,7 +41,7 @@ class About extends Component {
             </a> */}
             <h2>About Me</h2>
 
-            <p style={{ fontWeight: "600" }}>{bio}</p>
+            <p style={{ fontWeight: "600", textAlign: "justify" }}>{bio}</p>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>

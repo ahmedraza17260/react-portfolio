@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Ahmed Raza",
-    "occupation": "Frontend Web Developer ",
+    "occupation": "Quality Control Inspector ",
     "description": "",
     "image": "Ahmed_Raza.jpg",
-    "bio": "My Name is Ahmed Raza I'm a Frontend Web Developer. A passionate person when it comes to working and my goal is to expand my skills and knowledge in Web Development, I am a hard worker and eager to learn to make a valuable asset in any team ",
+    "bio": "My Name is Ahmed Raza I am Applied Chemistry Students, a passionate person when it comes to working and my goal is to expand my skills and knowledge in Quality Department, I am a hard worker and eager to learn to make a valuable asset in any team. ",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "ahmedraza17260@gmail.com",
     "phone": "+92 3232190116",
@@ -16,7 +16,7 @@
       "zip": "75950"
     },
     "website": "https://ahmedrazaportfolio.netlify.app/",
-    "resumedownload": "https://drive.google.com/file/d/1an1bGso-QNqirTYNyv2RVAG3_O22fF4c/view",
+    "resumedownload": "https://drive.google.com/file/d/1foVdPDuJGFtls-ociSXvZYut5hqpuBp1/view",
     "social": [
       {
         "name": "facebook",
@@ -63,22 +63,35 @@
         "title": "Sale Supervisor",
         "years": "June 2017 - October 2018",
         "description": "Using QuickBooks Software."
-      },
+      }
+    ],
+    "workDalda": [
       {
         "company": "Dalda Food",
         "title": "Internship in Engineering Department",
         "years": "January 2023 - March 2023",
-        "description": "Understand Process & QA/QC."
+        "description": "Understand Process & Perform Testing in QA/QC Department.",
+        "TestPerform": [
+          "Free Fatty Acid (FFA), Soap Content, Detection of Iron Content, Detection of Nickel Content, Detection of Phosphorous Content, Dilation, Bleaching, Moisture & Impurities (M&I), Slip Melting Point (SMP), Fatty Acid Methyl Ester (FAME), Vitamin A, Clarity Test,Strength of Citric Acid, Peroxide Value (POV), Kries Test (KT), Total Fatty Matter (TFM), Mineral Oil Detection, Line QDI, Packaging QDI "
+        ]
       }
     ],
     "skills": [
+      {
+        "name": "Quality Control",
+        "level": "80%"
+      },
+      {
+        "name": "Analytical Skill",
+        "level": "75%"
+      },
       {
         "name": "Ms Office",
         "level": "90%"
       },
       {
-        "name": "Laboratory",
-        "level": "72%"
+        "name": "Laboratory Skill",
+        "level": "82%"
       },
       {
         "name": "Graphic Design",
