@@ -38,14 +38,14 @@ const Navbar = () => {
             <span class="text"> Education </span>
           </a>
         </li>
-        <li class="list">
-          <a className="" href="#portfolio">
-            <span class="icon">
-              <ion-icon name="code-working-outline"></ion-icon>
-            </span>
-            <span class="text"> Works </span>
-          </a>
-        </li>
+//         <li class="list">
+//           <a className="" href="#portfolio">
+//             <span class="icon">
+//               <ion-icon name="code-working-outline"></ion-icon>
+//             </span>
+//             <span class="text"> Works </span>
+//           </a>
+//         </li>
         <li class="list">
           <a className="" href="#contact">
             <span class="icon">
