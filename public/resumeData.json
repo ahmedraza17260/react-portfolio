@@ -8,9 +8,8 @@
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "ahmedraza17260@gmail.com",
     "phone": "+92 3232190116",
-    "phone1": "+92 3178917263 (Only Whatsapp)",
     "address": {
-      "street": "Naseerabad, FB Area Block 14",
+      "street": "FB Area Block 14",
       "city": "Karachi",
       "state": "Pakistan",
       "zip": "75950"
@@ -34,6 +33,11 @@
         "className": "fa fa-instagram"
       },
       {
+        "name": "pinterest",
+        "url": "https://pinterest.com/ahmedraza17260/",
+        "className": "fa fa-pinterest"
+      },
+      {
         "name": "twitter",
         "url": "https://twitter.com/AhmedRaza17260",
         "className": "fa fa-twitter"
@@ -50,11 +54,13 @@
     "education": [
       {
         "school": "Academy of Islamic and Modern Studies",
-        "college": "Sir Adamjee Institute",
-        "university": "Karachi University (Continue)",
-        "degree": "MSc.(Hons)",
-        "graduated": "Last Semester",
-        "description": "Internship at Dalda Food"
+        "college": "Sir Adamjee Institute (2015-2017)",
+        "university": "Karachi University",
+        "degree": "BSc.(Hons) Applied Chemistry",
+        "degree1": "MSc.(Hons) Applied Chemistry",
+        "graduated": "2019 - 2021",
+        "graduated1": "2021 - 2022",
+        "description": ""
       }
     ],
     "work": [
@@ -62,7 +68,12 @@
         "company": "Ayaan Corporation",
         "title": "Sale Supervisor",
         "years": "June 2017 - October 2018",
-        "description": "Using QuickBooks Software."
+        "description": "Worked under Management to achieve sales targets and drive revenue growth",
+        "description1": "Learning Sales Processes and Strategies",
+        "description2": "Analyze Sales Data",
+        "description3": "Invoicing",
+        "description4": "Sales Reports",
+        "description5": "Managing Accounts"        
       }
     ],
     "workDalda": [
