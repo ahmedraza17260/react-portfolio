@@ -2,19 +2,20 @@ import React, { Component } from "react";
 
 class About extends Component {
   render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var profilepic = "images/" + this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone = this.props.data.phone;
-      // var phone1 = this.props.data.phone1;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
+    const data = this.props.data;
+
+    if (!data) return <div>Loading About Section...</div>;
+
+    const name = data.name;
+    const profilepic = "images/" + data.image;
+    const bio = data.bio;
+    const street = data.address?.street || "";
+    const city = data.address?.city || "";
+    const state = data.address?.state || "";
+    const zip = data.address?.zip || "";
+    const phone = data.phone;
+    const email = data.email;
+    const resumeDownload = data.resumedownload;
 
     return (
       <section id="about">
@@ -23,25 +24,15 @@ class About extends Component {
             <img
               className="profile-pic"
               src={profilepic}
-              alt="Ahmed Raza Profile Pic"
+              alt={`${name} Profile Pic`}
             />
             <br />
           </div>
-          <div className="nine columns main-col">
-            {/* <a
-              href="https://www.revenuehits.com/lps/pubref/?ref=@RH@o8AkQ1f6g4piyzjlP_Hmoemci3uhSfe8ZZJCxAdeOqU"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://revenuehits.com/publishers/media/img/v4/728x90_v4.gif"
-                alt="Ads"
-                border="0"
-              />
-            </a> */}
-            <h2>About Me</h2>
 
+          <div className="nine columns main-col">
+            <h2>About Me</h2>
             <p style={{ fontWeight: "600", textAlign: "justify" }}>{bio}</p>
+
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
@@ -54,10 +45,12 @@ class About extends Component {
                     {city} {state}, {zip}
                   </span>
                   <br />
-                  <span>{phone}</span> <br />
+                  <span>{phone}</span>
+                  <br />
                   <span>{email}</span>
                 </p>
               </div>
+
               <div className="columns download">
                 <p>
                   <a
@@ -66,7 +59,7 @@ class About extends Component {
                     rel="noopener noreferrer"
                     className="button"
                   >
-                    <i className="fa fa-download"></i>View Resume
+                    <i className="fa fa-download"></i> View Resume
                   </a>
                 </p>
               </div>

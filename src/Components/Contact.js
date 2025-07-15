@@ -63,8 +63,8 @@ const Contact = ({ data }) => {
               <br />
               <span>{data?.phone}</span>
               <br />
-              <span>{data?.phone1}</span>
-              <br />
+              {/* <span>{data?.phone1}</span> */}
+              {/* <br /> */}
               <span>{data?.email}</span>
             </p>
           </div>

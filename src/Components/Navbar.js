@@ -1,74 +1,72 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../App.css";
-// import DarkModeToggle from "./DarkModeToggle";
+import DarkModeToggle from "./DarkModeToggle";
 
 const Navbar = () => {
-  const list = document.querySelectorAll(".list");
+  const navRef = useRef(null);
 
-  function activeLink() {
-    list.forEach((item) => item.classList.remove("active"));
-    this.classList.add("active");
-  }
-  list.forEach((item) => item.addEventListener("click", activeLink));
+  useEffect(() => {
+    const listItems = navRef.current.querySelectorAll(".list");
+
+    const handleClick = (e) => {
+      listItems.forEach((item) => item.classList.remove("active"));
+      e.currentTarget.classList.add("active");
+    };
+
+    listItems.forEach((item) => {
+      item.addEventListener("click", handleClick);
+    });
+
+    return () => {
+      listItems.forEach((item) => {
+        item.removeEventListener("click", handleClick);
+      });
+    };
+  }, []);
 
   return (
-    <div id="" className="navigation">
-      <ul id="" className="nav">
-        <li className=" list">
-          <a className="" href="#home">
-            <span class="icon">
-              <ion-icon name="home-outline"></ion-icon>
-            </span>
-            <span class="text"> Home </span>
-          </a>
-        </li>
-        <li class="list">
-          <a className="" href="#about">
-            <span class="icon">
-              <ion-icon name="person-outline"></ion-icon>
-            </span>
-            <span class="text"> About </span>
-          </a>
-        </li>
-        <li class="list">
-          <a className="" href="#resume">
-            <span class="icon">
-              <ion-icon name="book-outline"></ion-icon>
-            </span>
-            <span class="text"> Education </span>
-          </a>
-        </li>
-        <li class="list">
-          <a className="" href="#contact">
-            <span class="icon">
-              <ion-icon name="call-outline"></ion-icon>
-            </span>
-            <span class="text"> Contact </span>
-          </a>
-        </li>
-        {/* <li><DarkModeToggle /></li> */}
-        {/* <div className="indicator"></div> */}
-      </ul>
+    <div className="navbar-container">
+      <div className="navigation" ref={navRef}>
+        <ul className="nav">
+          <li className="list active">
+            <a href="#home">
+              <span className="icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span className="text">Home</span>
+            </a>
+          </li>
+          <li className="list">
+            <a href="#about">
+              <span className="icon">
+                <ion-icon name="person-outline"></ion-icon>
+              </span>
+              <span className="text">About</span>
+            </a>
+          </li>
+          <li className="list">
+            <a href="#resume">
+              <span className="icon">
+                <ion-icon name="book-outline"></ion-icon>
+              </span>
+              <span className="text">Education</span>
+            </a>
+          </li>
+          <li className="list">
+            <a href="#contact">
+              <span className="icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </span>
+              <span className="text">Contact</span>
+            </a>
+          </li>
+          <li className="list toggle-item">
+            <DarkModeToggle />
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
 
 export default Navbar;
-
-/* <nav id=""> */
-/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-          Show navigation
-        </a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">
-          Hide navigation
-        </a> */
-/* </nav> */
-
-/*     //   <li class="list">
-//           <a className="" href="#portfolio">
-//             <span class="icon">
-//               <ion-icon name="code-working-outline"></ion-icon>
-//             </span>
-//             <span class="text"> Works </span>
-//           </a>
-//         </li>    */

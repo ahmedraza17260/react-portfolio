@@ -2,20 +2,16 @@ import React, { Component } from "react";
 
 class Testimonials extends Component {
   render() {
-    if (this.props.data) {
-      var testimonials = this.props.data.testimonials.map(function (
-        testimonials
-      ) {
-        return (
-          <li key={testimonials.user}>
-            <blockquote>
-              <p>{testimonials.text}</p>
-              <cite>{testimonials.user}</cite>
-            </blockquote>
-          </li>
-        );
-      });
-    }
+    if (!this.props.data) return null;
+
+    const testimonials = this.props.data.testimonials.map((testimonial) => (
+      <li key={testimonial.user}>
+        <blockquote>
+          <p>{testimonial.text}</p>
+          <cite>{testimonial.user}</cite>
+        </blockquote>
+      </li>
+    ));
 
     return (
       <section id="testimonials">
@@ -28,7 +24,14 @@ class Testimonials extends Component {
             </div>
 
             <div className="ten columns flex-container">
-              <ul className="slides">{testimonials}</ul>
+              <ul className="slides">
+                {testimonials.length > 0 ? (
+                  <ul className="slides">{testimonials}</ul>
+                ) : (
+                  <p>No testimonials available at the moment.</p>
+                )}
+
+              </ul>
             </div>
           </div>
         </div>

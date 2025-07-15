@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "AhmedRaza",
+  "name": "Ahmed Raza Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "./",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#22303c",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "description": "Ahmed Raza's professional portfolio showcasing skills, projects, and testimonials."
 }
