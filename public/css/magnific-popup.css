@@ -19,7 +19,7 @@
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  }
 
 .mfp-container {
   text-align: center;
@@ -108,7 +108,6 @@ button.mfp-close, button.mfp-arrow {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
   display: block;
   outline: none;
   padding: 0;
@@ -296,9 +295,7 @@ img.mfp-img {
   cursor: pointer; }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
+ 
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }
@@ -366,7 +363,4 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
-
-
-
 

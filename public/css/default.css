@@ -19,22 +19,21 @@ d. Grid
 e. Others
    1. Clearing
    2. Misc
-
 =====================================================================  */
 
 /* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
+/* a. Webfonts and Icon fonts */
+/* ------------------------------------------------------------------ */
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
-/* ------------------------------------------------------------------
+/* ------------------------------------------------------------------ */
 /* b. Reset
       Adapted from:
       Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
+      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/ */
 /* ------------------------------------------------------------------ */
 
 html,
@@ -160,16 +159,7 @@ pre {
 
 blockquote,
 q {
-  quotes: "&#8220";
-  
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+  quotes: "\201C" "\201D";
 }
 
 ins {
@@ -202,7 +192,7 @@ table {
 /* c. Default and Basic Styles
       Adapted from:
       Skeleton CSS Framework - http://www.getskeleton.com/
-      Typeplate Typographic Starter Kit - http://typeplate.com/
+      Typeplate Typographic Starter Kit - http://typeplate.com/ */
 /* ------------------------------------------------------------------ */
 
 /*  1. Basic  ------------------------------------------------------- */
@@ -221,27 +211,16 @@ html {
 }
 
 body {
-  /* background: #fff; */
-  /* background: linear-gradient(
-    90deg,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  ); */
   font-family: "opensans-regular", sans-serif;
   font-weight: normal;
   font-size: 15px;
-  /* line-height: 30px; */
-  /* color: #000 !important; */
-  /* color: #000000; */
-  /* color: #838c95; */
-
-  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
 
 /*  2. Typography
-       Vertical rhythm with leading derived from 6
---------------------------------------------------------------------- */
+       Vertical rhythm with leading derived from 6 */
+/* ------------------------------------------------------------------ */
 
 h1,
 h2,
@@ -249,8 +228,6 @@ h3,
 h4,
 h5,
 h6 {
-  /* color: #000000; */
-  /* color: #313131; */
   font-family: "opensans-bold", sans-serif;
   font-weight: bold;
 }
@@ -291,8 +268,6 @@ h6 {
   font-size: 14px;
   line-height: 30px;
 }
-.subheader {
-}
 
 p {
   margin: 0 0 30px 0;
@@ -305,8 +280,6 @@ p.lead {
   margin-bottom: 18px;
 }
 
-/* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
 em {
   font: 15px/30px "opensans-italic", sans-serif;
 }
@@ -325,18 +298,6 @@ blockquote {
   padding-left: 40px;
   position: relative;
 }
-blockquote:before {
-  content: "\201C";
-  opacity: 0.45;
-  font-size: 80px;
-  line-height: 0px;
-  margin: 0;
-  font-family: arial, sans-serif;
-
-  position: absolute;
-  top: 30px;
-  left: 0;
-}
 blockquote p {
   font-family: "librebaskerville-italic", serif;
   padding: 0;
@@ -349,52 +310,9 @@ blockquote cite {
   font-style: normal;
   line-height: 18px;
 }
-blockquote cite:before {
-  content: "\2014 \0020";
-}
 blockquote cite a,
 blockquote cite a:visited {
-  /* color: #8b9798; */
   border: none;
-}
-
-/* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
-/*
-/* --------------------------------------------------------------------- */
-.pull-quote {
-  position: relative;
-  padding: 18px 30px 18px 0px;
-}
-.pull-quote:before,
-.pull-quote:after {
-  height: 1em;
-  opacity: 0.45;
-  position: absolute;
-  font-size: 80px;
-  font-family: Arial, Sans-Serif;
-}
-.pull-quote:before {
-  content: "\201C";
-  top: 33px;
-  left: 0;
-}
-.pull-quote:after {
-  content: "\201D";
-  bottom: -33px;
-  right: 0;
-}
-.pull-quote blockquote {
-  margin: 0;
-}
-.pull-quote blockquote:before {
-  content: none;
 }
 
 /* Abbreviations */
@@ -415,7 +333,7 @@ abbr:hover {
   margin: 0;
   padding: 14px 6px 0 0;
   font-size: 84px;
-  font-family: /* Copperplate */ "opensans-bold", sans-serif;
+  font-family: "opensans-bold", sans-serif;
   line-height: 60px;
   text-indent: 0;
   background: transparent;
@@ -424,8 +342,6 @@ abbr:hover {
 
 hr {
   border: solid gray;
-  /* border: solid #243447; */
-  /* border: solid #e3e3e3; */
   border-width: 1px 0 0;
   clear: both;
   margin: 11px 0 30px;
@@ -438,10 +354,7 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  /* color: #11abb0; */
-  /* color: #74ebd5; */
   color: white;
-
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
@@ -449,18 +362,10 @@ a:visited {
 }
 a:hover,
 a:focus {
-  /* color: #11abb0; */
-  /* background: #000; */
-  /* padding: 2px; */
-  /* color: #000080; */
   color: #c0c0c0;
-
-  /* color: #29fd53; */
-  /* color: #313131; */
 }
 p a,
 p a:visited {
-  /* line-height: inherit; */
   color: white;
 }
 
@@ -508,21 +413,7 @@ li {
   line-height: 18px;
   margin-bottom: 12px;
 }
-ul.large li {
-}
-li p {
-}
 
-/* ---------------------------------------------------------------------
-/*  Stats Tab Markup
-
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
-
-    Extend this object into your markup.
-/*
-/* --------------------------------------------------------------------- */
 .stats-tabs {
   padding: 0;
   margin: 24px 0;
@@ -576,15 +467,7 @@ dd {
 }
 .lining dt + dt:before,
 .lining dd + dt:before {
-  content: "\A";
   white-space: pre;
-}
-.lining dd + dd:before {
-  content: ", ";
-}
-.lining dd:before {
-  content: ": ";
-  margin-left: -0.2em;
 }
 
 /* Dictionary Definition Style Markup */
@@ -593,15 +476,11 @@ dd {
   counter-reset: definitions;
 }
 .dictionary-style dt + dt:before {
-  content: ", ";
   margin-left: -0.2em;
 }
 .dictionary-style dd {
   display: block;
   counter-increment: definitions;
-}
-.dictionary-style dd:before {
-  content: counter(definitions, decimal) ". ";
 }
 
 /* Pagination */
@@ -622,13 +501,11 @@ dd {
   margin-bottom: 6px;
   color: #6e757c;
   background-color: #e6e8eb;
-
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   -ms-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
-
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
@@ -647,9 +524,6 @@ dd {
 .pagination .inactive:hover {
   background-color: #e6e8eb;
   color: #a9adb2;
-}
-.pagination .prev,
-.pagination .next {
 }
 
 /*  5. Images  --------------------------------------------------------- */
@@ -674,45 +548,23 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   font: 16px/30px "opensans-bold", sans-serif;
-  /* background: #11abb0; */
   display: inline-block;
   text-decoration: none;
   letter-spacing: 0;
-  /* color: #fff; */
   padding: 12px 20px;
   margin-bottom: 18px;
   border: none;
   cursor: pointer;
   height: auto;
-
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
-}
-
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
-  /* background: #3d4145; */
-  /* color: #fff; */
-}
-
-.button:active,
-button:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active {
-  /* background: #3d4145; */
-  /* color: #fff; */
 }
 
 .button.full-width,
@@ -752,25 +604,18 @@ select {
   margin: 0 0 24px 0;
   border: 0;
   outline: none;
-  vertical-align: middle;
   min-width: 225px;
   max-width: 100%;
   font-size: 15px;
   line-height: 24px;
-  /* color: #647373; */
   background: #d3d9d9;
 }
-
-/* select { padding: 0;
-   width: 220px;
-   } */
 
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   color: #b3b7bc;
-  /* background-color: #fff; */
   background-color: #3d4145;
 }
 
@@ -782,19 +627,16 @@ label,
 legend {
   font: 16px/24px "opensans-bold", sans-serif;
   margin: 12px 0;
-  /* color: #3d4145; */
   display: block;
 }
 label span,
 legend span {
-  /* color: #8b9798; */
   font: 14px/24px "opensans-regular", sans-serif;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
   font-size: 15px;
-  /* color: #737373; */
 }
 
 input[type="checkbox"] {
@@ -802,20 +644,15 @@ input[type="checkbox"] {
 }
 
 /* ------------------------------------------------------------------ */
-/* d. Grid
----------------------------------------------------------------------
-   gutter = 40px.
+/* d. Grid */
 /* ------------------------------------------------------------------ */
 
-/* default
---------------------------------------------------------------- */
+/* default */
 .row {
   width: 96%;
   max-width: 1020px;
   margin: 0 auto;
-  /* background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%) !important; */
 }
-/* fixed width for IE8 */
 .ie .row {
   width: 1000px;
 }
@@ -830,10 +667,8 @@ input[type="checkbox"] {
   margin: 0 -20px;
 }
 
-/* row clearing */
 .row:before,
 .row:after {
-  content: " ";
   display: table;
 }
 .row:after {
@@ -853,7 +688,6 @@ input[type="checkbox"] {
   margin: 0 auto;
 }
 
-/* removed gutters */
 .row.collapsed > .column,
 .row.collapsed > .columns,
 .column.collapsed,
@@ -868,7 +702,6 @@ input[type="checkbox"] {
   float: right;
 }
 
-/* column widths */
 .row .one {
   width: 8.33333%;
 }
@@ -898,7 +731,6 @@ input[type="checkbox"] {
 }
 .row .ten {
   width: 100%;
-  /* width: 83.33333%; */
 }
 .row .eleven {
   width: 91.66667%;
@@ -907,7 +739,6 @@ input[type="checkbox"] {
   width: 100%;
 }
 
-/* Offsets */
 .row .offset-1 {
   margin-left: 8.33333%;
 }
@@ -942,7 +773,6 @@ input[type="checkbox"] {
   margin-left: 91.66667%;
 }
 
-/* Push/Pull */
 .row .push-1 {
   left: 8.33333%;
 }
@@ -1010,8 +840,6 @@ input[type="checkbox"] {
   right: 91.66667%;
 }
 
-/* block grids
---------------------------------------------------------------------- */
 .bgrid-sixths [class*="column"] {
   width: 16.66667%;
 }
@@ -1029,21 +857,14 @@ input[type="checkbox"] {
   float: left;
 }
 
-/* Left clearing for block grid columns - columns that changes width in
-different screen sizes. Allows columns with different heights to align
-properly.
---------------------------------------------------------------------- */
 .first {
   clear: left;
-} /* first column in default screen */
+}
 .s-first {
   clear: none;
-} /* first column in smaller screens */
+}
 
-/* smaller screens
---------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
-  /* block grids on small screens */
   .s-bgrid-sixths [class*="column"] {
     width: 16.66667%;
   }
@@ -1057,7 +878,6 @@ properly.
     width: 50%;
   }
 
-  /* block grids left clearing */
   .first {
     clear: none;
   }
@@ -1066,8 +886,6 @@ properly.
   }
 }
 
-/* mobile wide/smaller tablets
---------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
   .row {
     width: 460px;
@@ -1095,7 +913,6 @@ properly.
     float: none;
   }
 
-  /* Offsets */
   .row .offset-1 {
     margin-left: 0%;
   }
@@ -1131,16 +948,12 @@ properly.
   }
 }
 
-/* mobile narrow
---------------------------------------------------------------- */
 @media only screen and (max-width: 460px) {
   .row {
     width: auto;
   }
 }
 
-/* larger screens
---------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
   .wide .row {
     max-width: 1180px;
@@ -1148,23 +961,23 @@ properly.
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Others
+/* e. Others */
 /* ------------------------------------------------------------------ */
 
 /*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
---------------------------------------------------------------------- */
+    (http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* ------------------------------------------------------------------ */
 
 .cf:before,
 .cf:after {
-  content: " ";
   display: table;
 }
 .cf:after {
   clear: both;
 }
 
-/*  2. Misc -------------------------------------------------------- */
+/*  2. Misc */
+/* ------------------------------------------------------------------ */
 
 .remove-bottom {
   margin-bottom: 0 !important;
