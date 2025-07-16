@@ -1,6 +1,9 @@
 /* 1. Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=BioRhyme&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 /* 2. Reset & Base Styles */
 * {
   margin: 0;
@@ -29,7 +32,7 @@ body.light-theme {
 
 /* 4. Dark Theme */
 body.dark-theme {
-  --bg-color: #111111;
+  /* --bg-color: #111111; */
   --text-color: #ffffff;
   --icon-color: #ffffff;
   --nav-bg: #000000;
@@ -38,6 +41,7 @@ body.dark-theme {
   --highlight: #25d366;
   --footer-bg: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
   --footer-color: #ffffff;
+  --bg-color: rgb(31, 40, 51)
 }
 
 /* 5. Apply Theme Variables */
@@ -409,6 +413,23 @@ footer ul li a {
   font-style: normal;
   color: var(--highlight);
 }
+
+
+.testimonial-slide blockquote {
+  background-color: var(--clr);
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 150px;
+  color: var(--text-light);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.testimonial-slide cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 
 /* 14. Skills */
 

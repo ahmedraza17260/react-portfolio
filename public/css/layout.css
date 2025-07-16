@@ -891,10 +891,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
-  background-size: cover !important;
+  /* background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center; */
+  /* background-size: cover !important;
   -webkit-background-size: cover !important;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 
   position: relative;
   min-height: 200px;
@@ -1043,7 +1043,7 @@ call-to-action .button {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .flex-control-paging li a {
   width: 12px;

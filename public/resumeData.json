@@ -17,12 +17,36 @@
     "website": "https://ahmedrazaportfolio.netlify.app/",
     "resumedownload": "https://drive.google.com/file/d/1V_H6p9DV_7EwtQ26MTz7pFTJBeNoRRsR/view",
     "social": [
-      { "name": "facebook", "url": "https://www.facebook.com/ahmedraza1726", "className": "fa fa-facebook" },
-      { "name": "linkedin", "url": "https://www.linkedin.com/in/ahmedraza17260/", "className": "fa fa-linkedin" },
-      { "name": "instagram", "url": "https://www.instagram.com/ahmedraza17260/", "className": "fa fa-instagram" },
-      { "name": "pinterest", "url": "https://pinterest.com/ahmedraza17260/", "className": "fa fa-pinterest" },
-      { "name": "twitter", "url": "https://twitter.com/AhmedRaza17260", "className": "fa fa-twitter" },
-      { "name": "github", "url": "http://github.com/ahmedraza17260", "className": "fa fa-github" }
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/ahmedraza1726",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ahmedraza17260/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ahmedraza17260/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "pinterest",
+        "url": "https://pinterest.com/ahmedraza17260/",
+        "className": "fa fa-pinterest"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/AhmedRaza17260",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/ahmedraza17260",
+        "className": "fa fa-github"
+      }
     ]
   },
   "resume": {
@@ -45,36 +69,65 @@
         "description": "Worked closely with management to achieve sales targets, analyze sales data, manage accounts, and create reports."
       },
       {
-      "company": "Dalda Foods",
-      "title": "Intern - Quality Department",
-      "years": "January 2023 - March 2023 (6 Weeks",
-      "description": "Performed quality tests (FFA, Soap Content, M&I, SMP, FAME, POV, Citric Acid) on edible oil products, ensuring adherence to food safety standards. Conducted Line and Packaging Quality Departure Inspections. Collaborated with QA team to document findings."
-    },
-    {
-      "company": "Global Exports",
-      "title": "MTO - Quality Control",
-      "years": "26th May 2023 - 31 Dec 2024",
-      "description": "Optimized dyeing performance by analyzing real-time data. Conducted quality control tests (Formic Acid, Acetic Acid, Caustic Soda purity; absorbency and solid content analysis), ensuring 100% compliance with industry standards."
-    },
-    {
-      "company": "Global Exports",
-      "title": "Assistant Manager - Processing",
-      "years": "Jan 2025 - Present",
-      "description": "Managed production costing for dyeing operations. Planned and scheduled dyeing operations, ensuring on-time delivery. Created comprehensive production performance reports."
-    }
-
+        "company": "Dalda Foods",
+        "title": "Intern - Quality Department",
+        "years": "January 2023 - March 2023 (6 Weeks",
+        "description": "Performed quality tests (FFA, Soap Content, M&I, SMP, FAME, POV, Citric Acid) on edible oil products, ensuring adherence to food safety standards. Conducted Line and Packaging Quality Departure Inspections. Collaborated with QA team to document findings."
+      },
+      {
+        "company": "Global Exports",
+        "title": "MTO - Quality Control",
+        "years": "26th May 2023 - 31 Dec 2024",
+        "description": "Optimized dyeing performance by analyzing real-time data. Conducted quality control tests (Formic Acid, Acetic Acid, Caustic Soda purity; absorbency and solid content analysis), ensuring 100% compliance with industry standards."
+      },
+      {
+        "company": "Global Exports",
+        "title": "Assistant Manager - Processing",
+        "years": "Jan 2025 - Present",
+        "description": "Managed production costing for dyeing operations. Planned and scheduled dyeing operations, ensuring on-time delivery. Created comprehensive production performance reports."
+      }
     ],
     "skills": [
-      { "name": "Quality Control", "level": "80%" },
-      { "name": "Analytical Skills", "level": "85%" },
-      { "name": "Microsoft Office", "level": "90%" },
-      { "name": "Laboratory Techniques", "level": "81%" },
-      { "name": "Graphic Design", "level": "63%" },
-      { "name": "Frontend Development", "level": "55%" },
-      { "name": "CSS3", "level": "70%" },
-      { "name": "Git", "level": "62%" },
-      { "name": "HTML5", "level": "85%" },
-      { "name": "Bootstrap", "level": "82%" }
+      {
+        "name": "Quality Control",
+        "level": "80%"
+      },
+      {
+        "name": "Analytical Skills",
+        "level": "85%"
+      },
+      {
+        "name": "Microsoft Office",
+        "level": "90%"
+      },
+      {
+        "name": "Laboratory Techniques",
+        "level": "81%"
+      },
+      {
+        "name": "Graphic Design",
+        "level": "63%"
+      },
+      {
+        "name": "Frontend Development",
+        "level": "55%"
+      },
+      {
+        "name": "CSS3",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "62%"
+      },
+      {
+        "name": "HTML5",
+        "level": "85%"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "82%"
+      }
     ]
   },
   "portfolio": {
@@ -107,6 +160,26 @@
   },
   "testimonials": {
     "testimonials": [
+      {
+        "text": "Ahmed has consistently demonstrated strong analytical skills and attention to detail in quality control processes.",
+        "user": "Supervisor, Quality Assurance Department – Global"
+      },
+      {
+        "text": "His contribution to dyeing planning helped optimize resource allocation and improve on-time delivery rates.",
+        "user": "Manager, Dyeing Operations – Global"
+      },
+      {
+        "text": "He proactively identified process gaps and suggested lean improvements that saved time and reduced waste.",
+        "user": "Operational Excellence Team – Global"
+      },
+      {
+        "text": "Ahmed’s skills in Excel dashboards enhanced data visibility and helped streamline decision-making in production meetings.",
+        "user": "Data & Planning Team – Global"
+      },
+      {
+        "text": "His commitment to continuous improvement and learning new tools made him a valuable member of our process control team.",
+        "user": "Process Control Unit – Global"
+      },
       {
         "text": "Ahmed consistently delivers quality work and is very detail-oriented.",
         "user": "Colleague, Dalda Foods"

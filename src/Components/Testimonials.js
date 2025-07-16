@@ -1,37 +1,50 @@
 import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class Testimonials extends Component {
   render() {
-    if (!this.props.data) return null;
+    const { testimonials } = this.props.data || {};
 
-    const testimonials = this.props.data.testimonials.map((testimonial) => (
-      <li key={testimonial.user}>
-        <blockquote>
-          <p>{testimonial.text}</p>
-          <cite>{testimonial.user}</cite>
-        </blockquote>
-      </li>
-    ));
+    if (!testimonials) return null;
+
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: { slidesToShow: 2 }
+        },
+        {
+          breakpoint: 768,
+          settings: { slidesToShow: 1 }
+        }
+      ]
+    };
 
     return (
       <section id="testimonials">
         <div className="text-container">
           <div className="row">
-            <div className="two columns header-col">
-              <h1>
-                <span>Client Testimonials</span>
-              </h1>
-            </div>
-
-            <div className="ten columns flex-container">
-              <ul className="slides">
-                {testimonials.length > 0 ? (
-                  <ul className="slides">{testimonials}</ul>
-                ) : (
-                  <p>No testimonials available at the moment.</p>
-                )}
-
-              </ul>
+            <div className="twelve columns">
+              <h1>Client Testimonials</h1>
+              <Slider {...settings}>
+                {testimonials.map((testimonial, index) => (
+                  <div key={index} className="testimonial-slide">
+                    <blockquote>
+                      <p>{testimonial.text}</p>
+                      <cite>{testimonial.user}</cite>
+                    </blockquote>
+                  </div>
+                ))}
+              </Slider>
             </div>
           </div>
         </div>

@@ -160,7 +160,8 @@ pre {
 
 blockquote,
 q {
-  quotes: &#8220 &#8220;
+  quotes: "&#8220";
+  
 }
 
 blockquote:before,
@@ -896,7 +897,8 @@ input[type="checkbox"] {
   width: 75%;
 }
 .row .ten {
-  width: 83.33333%;
+  width: 100%;
+  /* width: 83.33333%; */
 }
 .row .eleven {
   width: 91.66667%;
