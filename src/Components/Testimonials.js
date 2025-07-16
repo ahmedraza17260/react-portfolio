@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 class Testimonials extends Component {
   render() {
     const { testimonials } = this.props.data || {};
