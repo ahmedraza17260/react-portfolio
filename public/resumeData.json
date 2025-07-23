@@ -139,6 +139,12 @@
         "url": "https://ahmedrazaportfolio.netlify.app/"
       },
       {
+        "title": "Magic Portfolio",
+        "category": "Personal Portfolio built using Next.js",
+        "image": "portfolio.jpg",
+        "url": "https://m-ahmedraza-portfolio.vercel.app/"
+      },
+      {
         "title": "Amazon Clone",
         "category": "E-commerce interface clone built with React.js",
         "image": "amazon-clone.jpg",
