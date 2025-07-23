@@ -233,8 +233,8 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  padding-top: 90px;
-  padding-bottom: 72px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 
@@ -259,8 +259,10 @@ ul#nav li.current a {
 
 .education,
 .work {
-  margin-bottom: 48px;
-  padding-bottom: 24px;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  /* margin-bottom: 48px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid gray;
 }
 #resume .info {
@@ -275,6 +277,11 @@ ul#nav li.current a {
 #resume .date {
   font: 14px/24px "Lato", "opensans-regular", sans-serif;
   margin-top: 6px;
+}
+
+#resume h4 {
+  font: 16px/26px "opensans-regular", sans-serif;
+  margin: 0 0 10px 0;
 }
 
 /* Skill Bars */
@@ -302,6 +309,12 @@ ul#nav li.current a {
   font-weight: normal;
   position: relative;
   top: -36px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font: 14px "opensans-bold", sans-serif;
+  color: white;
 }
 .bar-expand {
   position: absolute;
@@ -314,7 +327,12 @@ ul#nav li.current a {
   height: 42px;
   line-height: 42px;
   border-radius: 3px 0 0 3px;
+  text-align: right;
+  color: white;
+  padding-right: 10px;
 }
+
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section */
