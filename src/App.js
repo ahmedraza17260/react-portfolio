@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
-import Portfolio from "./Components/Portfolio";
+// import Portfolio from "./Components/Portfolio";
 import Testimonials from "./Components/Testimonials";
 
 class App extends Component {
@@ -43,7 +43,7 @@ class App extends Component {
         <Header data={resumeData.main} /> <hr />
         <About data={resumeData.main} /> <hr />
         <Resume data={resumeData.resume} /> <hr />
-        <Portfolio data={resumeData.portfolio} /> <hr />
+        {/* <Portfolio data={resumeData.portfolio} /> <hr /> */}
         <Testimonials data={resumeData.testimonials} />
         <Contact data={resumeData.main} /> <hr />
         <Footer data={resumeData.main} />

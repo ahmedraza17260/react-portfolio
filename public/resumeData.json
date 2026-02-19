@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Ahmed Raza",
-    "occupation": "Process Controller",
-    "description": "Focused on enhancing product quality and ensuring process control in the textile sector.",
+    "occupation": "Chemist & Quality Control Specialist",
+    "description": "Focused on enhancing product quality and ensuring compliance with quality standards in manufacturing environments.",
     "image": "Ahmed_Raza.jpg",
-    "bio": "I am Ahmed Raza, a highly motivated professional with 2+ years of experience in process control, dyeing planning, and production costing within the textile industry. I aim to enhance operational efficiency, reduce rework, and promote continuous improvement in manufacturing processes.",
+    "bio": "Applied Chemist with experience in edible oil quality control, laboratory testing, and process monitoring across textile and food industries. Skilled in analytical testing, documentation, and compliance with quality standards. Looking to contribute to product quality, regulatory compliance, and continuous improvement in a manufacturing environment.",
     "contactmessage": "Feel free to get in touch for professional inquiries, collaboration, or mentorship.",
     "email": "ahmedraza17260@gmail.com",
     "phone": "+92 3232190116",
@@ -69,28 +69,42 @@
         "description": "Worked closely with management to achieve sales targets, analyze sales data, manage accounts, and create reports."
       },
       {
-        "company": "Dalda Foods",
+        "company": "Dalda Foods Ltd.",
         "title": "Intern - Quality Department",
-        "years": "January 2023 - March 2023 (6 Weeks",
+        "years": "January 2023 - March 2023 (6 Weeks Internship)",
         "description": "Performed quality tests (FFA, Soap Content, M&I, SMP, FAME, POV, Citric Acid) on edible oil products, ensuring adherence to food safety standards. Conducted Line and Packaging Quality Departure Inspections. Collaborated with QA team to document findings."
       },
       {
-        "company": "Global Exports",
+        "company": "Global Exports Apparel Experts",
         "title": "MTO - Quality Control",
         "years": "26th May 2023 - 31 Dec 2024",
         "description": "Optimized dyeing performance by analyzing real-time data. Conducted quality control tests (Formic Acid, Acetic Acid, Caustic Soda purity; absorbency and solid content analysis), ensuring 100% compliance with industry standards."
       },
       {
-        "company": "Global Exports",
+        "company": "Global Exports Apparel Experts",
         "title": "Assistant Manager - Processing",
         "years": "Jan 2025 - Feb 2026",
         "description": "Managed production costing for dyeing operations. Planned and scheduled dyeing operations, ensuring on-time delivery. Created comprehensive production performance reports."
+      },
+      {
+        "company": "A&Z AGRO INDUSTRIES PVT LTD (Shafaq Cooking Oil)",
+        "title": "Assistant Manager - Processing",
+        "years": "Feb 2026 - Present",
+        "description": "Perform analysis of raw materials, in-process, semi-finished, and finished edible oil products as per quality parameters. Issue test reports and Certificates of Analysis (COA) for dispatch and internal use. Ensure compliance with GLP, SOPs, and internal quality standards. Conduct routine checks and audits of filling and packing lines. Maintain laboratory records, logs, and documentation for traceability. Coordinate with refinery & production to resolve quality issues. Assist during internal and external audits and inspections"
       }
     ],
     "skills": [
       {
         "name": "Quality Control",
+        "level": "75%"
+      },
+      {
+        "name": "Quality Assurance",
         "level": "80%"
+      },
+      {
+        "name": "Good Laboratory Practices (GLP)",
+        "level": "75%"
       },
       {
         "name": "Analytical Skills",
@@ -102,7 +116,7 @@
       },
       {
         "name": "Laboratory Techniques",
-        "level": "81%"
+        "level": "82%"
       },
       {
         "name": "Graphic Design",

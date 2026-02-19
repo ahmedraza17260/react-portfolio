@@ -549,3 +549,51 @@ ul.social-links li a {
   line-height: 1 !important;
   vertical-align: middle !important;
 }
+
+
+
+.button {
+  display: inline-block;
+  padding: 12px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--nav-bg); /* ensures contrast in both themes */
+}
+
+.button:hover {
+  background-color: var(--nav-hover); /* subtle hover effect */
+  color: var(--text-color);
+  transform: translateY(-2px);
+}
+
+
+/* Light theme button */
+body.light-theme .button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.light-theme .button:hover {
+  background-color: #555555; /* grey hover */
+  color: #ffffff;
+}
+
+/* Dark theme button */
+body.dark-theme .button {
+  background-color: #2563eb; /* blue */
+  color: #ffffff;
+}
+
+body.dark-theme .button:hover {
+  background-color: #1d4ed8; /* darker blue hover */
+}
+
+.button i {
+  margin-right: 8px;
+}

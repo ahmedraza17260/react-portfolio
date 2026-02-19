@@ -22,9 +22,9 @@ class Resume extends Component {
         );
       });
 
-      var work = this.props.data.work.slice().reverse().map(function (work) {
+      var work = this.props.data.work.slice().reverse().map(function (work, index) {
   return (
-    <div key={work.company}>
+    <div key={work.company + index}>
       <h3>{work.company}</h3>
       <p className="info">
         {work.title}
